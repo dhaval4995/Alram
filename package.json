@@ -4,7 +4,7 @@
   "description": "Alaram clock",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "keywords": [
     "Express",
@@ -15,6 +15,7 @@
   "author": "DP",
   "license": "MIT",
   "dependencies": {
+    "@vercel/node": "^1.12.1",
     "body-parser": "^1.19.1",
     "cors": "^2.8.5",
     "express": "^4.17.2",
