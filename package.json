@@ -4,7 +4,7 @@
   "description": "Alaram clock",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "Express",
@@ -15,12 +15,10 @@
   "author": "DP",
   "license": "MIT",
   "dependencies": {
-    "@vercel/node": "^1.12.1",
     "body-parser": "^1.19.1",
     "cors": "^2.8.5",
     "express": "^4.17.2",
     "mysql": "^2.18.1",
-    "nodemon": "^2.0.15",
-    "vercel": "^23.1.2"
+    "nodemon": "^2.0.15"
   }
 }

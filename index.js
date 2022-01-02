@@ -9,12 +9,19 @@ const app = express();
 // app.use(cors(corsOptions));
 
 // parse requests of content-type - application/json
-app.use(express.json());
+// app.use(express.json());
 
 // parse requests of content-type - application/x-www-form-urlencoded
-app.use(express.urlencoded({ extended: true }));
+// app.use(express.urlencoded({ extended: true }));
 
-require("./app/routes/index.js")(app);
+// app.get('/',(req,res) => {
+//   res.send("This is a sample express app")
+// })
+
+// var apiRoutes = require('./app/routes/index');
+// app.use('/api', apiRoutes);
+
+require("./app/routes/index")(app);
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
